@@ -1,0 +1,35 @@
+:root{
+    /* ==== Font family ==== */
+    --logo-ft-fmly:'Techno Race';
+    --ft-fmly:'Inter';
+
+    /* Font weight */
+    --ft-wt1:400;
+    --ft-wt2:500;
+    --ft-wt3:600;
+    --ft-wt4:700;
+
+    /* ==== common padding ==== */
+    --cp: 4rem 6rem;
+    
+    /* == font size == */
+
+    /* colors */
+    --btn-bg-color:#6D6D6D;
+    --lgt-bl-bg-color:#1E1E1E;
+    --bg-all-section-color:#101113;
+
+    /* Check Border */
+    /* --ck:2px solid red; */
+
+
+    /* ==== font colors ==== */
+    --ft-gray:#878787;
+    --ft-yellow:#FEDA0A;
+    --ft-white:#FFFFFF;
+    --ft-black:#000000;
+    
+
+    /* === backgroud images */
+ 
+}

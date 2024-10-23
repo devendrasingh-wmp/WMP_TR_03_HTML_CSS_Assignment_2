@@ -1,0 +1,140 @@
+@media  screen and (max-width: 1550px) {
+    .main-content-heading{
+        font-size: 3.2rem;
+    }
+    .main-para{
+        font-size: 1rem;
+    }
+    .state-list{
+        font-size: 1.8rem;
+    }
+    .portfolio-course-para{
+        font-size: 1.2rem;
+    }
+    .portfolio-course-heading{
+        font-size: 2rem;
+    }
+    .certificate-course-items{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:1160px){
+        .nav-menu-options{
+            display: none;
+        }
+        .nav-button{
+            display: none;
+        }
+        #toggle-btn{
+            display: block;
+            font-size: 1.5rem;
+            font-family: Montserrat, sans-serif;
+            color: white;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+        }
+}
+@media (max-width: 1400px) {
+    .service-courses{
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+      gap: 3rem;
+    }
+  }
+
+ 
+  @media (max-width: 800px) {
+    .footer-main{
+        justify-content: space-around;
+    }
+  }
+  @media (max-width: 975px) {
+    .main-content{
+        width: 100%;
+    }
+    #personimg{
+        width: 100%;
+        height: 100%;
+        align-self: center;
+    }
+    .main-image{
+        width: 100%;
+    }
+    .states-list{
+        padding: 1rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    .nav-menu {
+      display: none;
+    }
+    .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        color: black;
+    }
+  
+    .toggle-btn {
+      display: none
+    }
+  
+    #drop-down-menu.active {
+      display: flex;
+      align-items: center;
+      margin-left: 70%;
+      opacity: 80%;
+    }
+  }
+
+  @media (max-width:700px){
+    .state-div{
+        width: 100%;
+    }
+    .state-list{
+        padding: 5rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .services{
+        padding: 1.5rem;
+        /* width: 100%; */
+    }
+    .service-heading{
+        font-size: 2rem;
+    }
+    .service-para{
+        font-size: 1.5rem;
+    }
+    .service-course-items{
+        font-size: 1.2rem;
+        padding: 1.5rem 1.5rem;
+    }
+    .state-list{
+        font-size: 1.7rem;
+        font-size: 1.2rem;
+        padding: 2rem;
+    }
+    .main-content-heading{
+        font-size: 2.5rem;
+    }
+    .main{
+        padding: 1.5rem;
+    }
+    .header-nav{
+        padding: 0.8rem;
+    }
+    .footer-main-d:nth-child(1){
+        height: 100%;
+        width: 100%;
+    }
+    .footer-main-d:nth-child(3){
+        flex-direction: row;
+        padding: 0rem;
+        border: none;
+    }
+    .footer{
+        padding: 1.5rem;
+    }
+  }
